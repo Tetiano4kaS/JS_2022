@@ -76,7 +76,7 @@
 //     console.log(a)
 // }else if (a<b){
 //     console.log(b)
-// }else if (a=b){
+// }else if (a===b){
 //     console.log('first number = second number')
 // }else{
 //     console.log('???')
