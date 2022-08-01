@@ -63,6 +63,8 @@
 //     case '7':
 //         console.log('Sunday');
 //         break;
+//     default:
+//         console.log('???')
 // }
 
 //     - Користувач вводить або має два числа.
@@ -77,7 +79,7 @@
 // }else if (a<b){
 //     console.log(b)
 // }else if (a===b){
-//     console.log('first number = second number')
+//     console.log(`${a} = ${b}`)
 // }else{
 //     console.log('???')
 // }
