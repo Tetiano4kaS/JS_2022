@@ -210,6 +210,4 @@
 //     }
 // }
 
-// console.log(cinder);
-// console.log(prince);
 // console.log(find(cinder, prince));
