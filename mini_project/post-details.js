@@ -28,4 +28,3 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${post.id}/comments`)
             }
         }
     })
-

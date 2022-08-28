@@ -1,6 +1,3 @@
-//------------------- user-details.html---------------------------------
-
-
 const user = JSON.parse(localStorage.getItem('user'))
 
 let userDetails = document.createElement('div')
@@ -46,7 +43,7 @@ button.onclick = function () {
         .then(posts => {
             for (const post of posts) {
                 let userPostTitle = document.createElement('div');
-                userPostTitle.classList ='w-20'
+                userPostTitle.classList = 'w-20'
                 userPostTitle.innerHTML = `${post.title}`;
                 userPostTitleWrap.appendChild(userPostTitle)
 
@@ -61,5 +58,3 @@ button.onclick = function () {
             }
         })
 }
-
-
