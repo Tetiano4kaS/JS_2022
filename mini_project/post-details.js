@@ -1,6 +1,12 @@
 const post = JSON.parse(localStorage.getItem(`post`))
 
+let titleOfPosts = document.createElement('div');
+titleOfPosts.innerHTML = `<h2>Post details</h2>`;
+titleOfPosts.classList = `title`;
+document.body.appendChild(titleOfPosts);
+
 let posts = document.createElement('div')
+posts.classList = `infoOfUserDetails userDetails`;
 document.body.appendChild(posts)
 
 for (const postDetail in post) {
@@ -18,7 +24,7 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${post.id}/comments`)
     .then(comments => {
         for (const comment of comments) {
             let postCommentDetails = document.createElement('div')
-            postCommentDetails.classList = 'w-25'
+            postCommentDetails.classList = 'cardOfPost'
             postComments.appendChild(postCommentDetails);
 
             for (const item in comment) {

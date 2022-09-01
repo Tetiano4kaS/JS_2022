@@ -74,7 +74,6 @@ body {
 
 .userPostTitle {
     width: 17%;
-    /*height: content-box;*/
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -88,21 +87,23 @@ body {
     font-weight: 550;
 }
 
-.w-25 {
-    width: 25%;
+.cardOfPost {
+    width: 23%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     box-sizing: border-box;
     padding: 15px;
-    border: 2px solid blue;
+    border: 4px solid cadetblue;
     border-radius: 15px;
+    margin-bottom: 10px;
+    font-weight: bolder;
 }
 
 .postComments {
     display: flex;
     flex-wrap: wrap;
     padding-top: 30px;
+    justify-content: space-between;
 }
 
 button {

@@ -39,7 +39,7 @@ for (let userDetailsOfFirstLevel in user) {
 }
 
 let button = document.createElement('button');
-button.innerText = 'post of current user';
+button.innerText = 'Posts of current user';
 button.classList = 'postOfCurrentUser'
 userDetails.appendChild(button);
 

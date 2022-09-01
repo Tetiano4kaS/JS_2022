@@ -1,6 +1,6 @@
 let title = document.createElement('div');
-title.innerHTML= `<h1>List of users</h1>`
-title.classList=`title`
+title.innerHTML = `<h1>List of users</h1>`
+title.classList = `title`
 document.body.appendChild(title);
 
 fetch('https://jsonplaceholder.typicode.com/users')
